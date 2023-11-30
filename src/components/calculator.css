@@ -1,0 +1,55 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .display {
+    background-color: #eee2e2;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .expression {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .result {
+    font-size: 24px;
+    color: #170d0d;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: black;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #100909;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  button:active {
+    background-color: #ccc;
+  }
+  
+  .backspace {
+    grid-column: span 3;
+    color: #fff;
+    background-color: #ff6347; /* Tomato color */
+  }
+  
